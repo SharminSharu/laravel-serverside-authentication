@@ -20,6 +20,7 @@ password:12345
 - Yajra datatables Ueses
 - Search option work available
 - Delete dataTables row
+- Export function (pdf, print,CVS,copy)
 - 1 million data insert
 
   ## Features Of Authentication
