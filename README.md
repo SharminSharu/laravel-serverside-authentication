@@ -1,14 +1,16 @@
 
 # Laravel Server Side DataTables And Custom Authentication
-This ultimately works using Yajra DataTables in Laravel 10 file (server-datatable.zip). And also develop a custom authentication system in Laravel file (auth-laravel.zip).
+This ultimately works using DataTables in Laravel 10 file (server-datatable.zip). And develop a custom authentication system in Laravel file (auth-laravel.zip).
 
 ## Deployment
-There are two Laravel zip files. These two files are added to htdocs\nagadhat-laravel. Then compress from the zip files Then it works.
-To deploy this project run
+I have implemented a server-side DataTable in Laravel, which is encapsulated in the file named server-datatable.zip. To set up this project, you will find two Laravel zip files within the repository. These files should be placed in the htdocs\nagadhat-laravel directory. Afterward, extract the contents from the zip files, and the project will be ready for deployment. I have developed a custom authentication system within Laravel, and the relevant files can be found in the auth-laravel.zip archive To run the project, execute the following command:
+
 ```bash
 php artisan serve
 ```
-Sql file (server-side.sql) is added from the database folder in localhost/phpmyadmin then this Website runs with the databases for Laravel Authentication (auth-laravel.zip) file.
+you may import the SQL file provided in the repository from the database folder into your localhost/phpMyAdmin. This will establish the necessary database structure for the Laravel Authentication system contained in the auth-laravel.zip file.
+
+To access the system, please use the following credentials:
 
 ```bash
 Username:sharmin@gmail.com
@@ -20,8 +22,8 @@ password:12345
 - Yajra datatables Ueses
 - Search option work available
 - Delete dataTables row
-- Export function (pdf, print,CVS,copy)
-- 1 million data insert
+- Export function (pdf, print, CVS, copy)
+- 1 million data insert into database
 
   ## Features Of Authentication
 - Custom authentication system 
