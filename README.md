@@ -3,7 +3,7 @@
 This ultimately works using Yajra DataTables in Laravel 10 file (server-datatable.zip). And also develop a custom authentication system in Laravel file (auth-laravel.zip).
 
 ## Deployment
-
+There are two Laravel zip files. These two files are added to htdocs\nagadhat-laravel. Then compress from the zip files Then it works.
 To deploy this project run
 ```bash
 php artisan serve
