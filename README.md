@@ -1,6 +1,6 @@
 
 # Laravel Server Side DataTables And Custom Authentication
-This ultimately works using Yajra DataTables in Laravel 10 file (server-datatable). And also develop a custom authentication system in Laravel file (auth-laravel).
+This ultimately works using Yajra DataTables in Laravel 10 file (server-datatable.zip). And also develop a custom authentication system in Laravel file (auth-laravel.zip).
 
 ## Deployment
 
@@ -8,7 +8,7 @@ To deploy this project run
 ```bash
 php artisan serve
 ```
-Sql file (server-side.sql) is added from the database folder in localhost/phpmyadmin then this Website runs with the databases for Laravel Authentication (auth-laravel) file.
+Sql file (server-side.sql) is added from the database folder in localhost/phpmyadmin then this Website runs with the databases for Laravel Authentication (auth-laravel.zip) file.
 
 ```bash
 Username:sharmin@gmail.com
